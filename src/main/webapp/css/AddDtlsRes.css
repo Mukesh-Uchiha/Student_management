@@ -1,0 +1,8 @@
+h1{
+   text-align: center;
+   align:center;
+}
+.form{
+	display:flex;
+	justify-content: center;
+}

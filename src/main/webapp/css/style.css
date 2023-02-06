@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box !important;
+    scroll-behavior: smooth;
+    transition: 1s;
+    
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height:100vh;
+}
+#pages{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top:auto;
+    left:0;
+    scroll-snap-type: proximity;
+    overflow-x: scroll;
+    scroll-margin-left: 100px; 
+
+}
+
+#pages section{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}

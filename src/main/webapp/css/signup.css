@@ -1,0 +1,183 @@
+
+  
+  .signup-box {
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    border-top: 5px solid #013080;
+    transition: 1s;
+  }
+  .signup-box:hover{
+      background-color:rgb(225, 227, 233);
+  }
+  
+  .head1{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  .signup-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #013080;
+    text-align: center;
+    
+  }
+  .signup-box .adminHead1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #013080;
+    text-align: center;
+     font-family: 'Open Sans', sans-serif;
+  }
+  
+  .signup-box .user-box1 {
+    position: relative;
+  }
+  
+  .signup-box .user-box1 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #013080;
+    outline: none;
+    background: transparent;
+  }
+  .signup-box .user-box1 label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #013080;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+
+  }
+  
+  .signup-box .user-box1 input:focus ~ label,
+  .signup-box .user-box1 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+ .foot1{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+ .sublogin1{
+    flex: 1;
+    padding: 16px 0px;
+    margin: 4px 1px;
+    cursor: pointer;
+
+
+ }
+ .sublogin1 a {
+    text-decoration: none;
+    text-decoration: none;
+    color: #03e9f4;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.sublogin1 a:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+ }
+@-webkit-keyframes glow {
+
+    0%{
+        text-shadow: 0 0 5px #FFF;
+
+    }
+    10%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF;
+        
+    }
+    20%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF;
+        
+    }
+    40%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4;
+
+    }
+    60%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+
+    }
+    80%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4, 0 0 40px #03e9f4, 0 0 55px #03e9f4;
+
+    }
+    100%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4, 0 0 40px #03e9f4, 0 0 55px #03e9f4, 0 0 75px #03e9f4;
+
+    }
+
+    }
+
+ .subsignup1 button{
+    background-color: #13BCC9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .subsignup1 button:hover {opacity: 1}
+
+  .bgsign{
+    background-size: 100%;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+
+
+
+      
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }
+
+  #AdminSignup{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-repeat: repeat-x;
+   background-size: cover;
+   color: white;
+   background-image:
+    linear-gradient(to left, rgba(255, 255, 255, 0),rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255, 255)),
+    url("../image/1.webp") !important ;
+   background-image: url("../image/1.webp") ;
+
+    background-repeat: repeat;
+  }

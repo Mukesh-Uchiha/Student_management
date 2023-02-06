@@ -1,0 +1,99 @@
+.flexbox{
+    display: flex;
+    width: 100%;
+}
+
+#container{
+    margin-top:222.986px;
+    flex: 1;
+
+    margin-left:50PX;
+     
+    
+}
+#Heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size:35px ;
+}
+
+.btn-group{
+
+    padding:30px;
+    border-radius: 10px;
+    
+}
+
+
+.adminHead{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .btn::after {
+    content: "";
+    background-color: #2A90D1;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .btn:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+
+  #homeback{
+    margin-top:20%;
+  }
+  #homeback img{
+    width: 600px;
+    opacity: 0.25;
+
+}
+#studentSignup img{
+  width: 600px;
+  opacity: 0.25;
+
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    animation: rotateAnimation 1s linear finite;
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0);
+        -webkit-transform: scale(0);
+    } 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  @keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(0deg);}
+}
+  .filter{
+      filter:blur(20px);
+
+  }

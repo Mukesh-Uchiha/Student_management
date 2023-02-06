@@ -1,0 +1,177 @@
+
+  
+  .login-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #013080;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px #013080;
+    border-radius: 10px;
+    z-index: 99;
+  }
+  .head{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    
+  }
+  .login-box .adminHead {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+     font-family: 'Open Sans', sans-serif;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+ .foot{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+ .subsignup{
+    flex: 1;
+    padding: 16px 0px;
+    margin: 4px 1px;
+    cursor: pointer;
+
+
+ }
+ .subsignup a {
+    text-decoration: none;
+    text-decoration: none;
+    color: #03e9f4;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.subsignup a:hover{
+    animation: glow 1s ease-in-out infinite alternate;
+ }
+@-webkit-keyframes glow {
+
+    0%{
+        text-shadow: 0 0 5px #FFF;
+
+    }
+    10%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF;
+        
+    }
+    20%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF;
+        
+    }
+    40%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4;
+
+    }
+    60%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+
+    }
+    80%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4, 0 0 40px #03e9f4, 0 0 55px #03e9f4;
+
+    }
+    100%{
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #03e9f4, 0 0 30px #03e9f4, 0 0 40px #03e9f4, 0 0 55px #03e9f4, 0 0 75px #03e9f4;
+
+    }
+
+    }
+
+ .sublogin button{
+    background-color: #13BCC9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .sublogin button:hover {opacity: 1}
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #03e9f4;
+    cursor: pointer;
+  }
+
+  .field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    color: #03e9f4;
+
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }
